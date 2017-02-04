@@ -2,6 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 section {
@@ -10,8 +12,7 @@ section {
   margin: 0;
 }
 
-figure,
-img {
+figure {
   margin: 0;
   padding: 0;
   display: block;
@@ -43,4 +44,10 @@ figure.hero figcaption {
 
 figure.hero figcaption img {
   width: 200px;
+}
+
+/*slider stuff*/
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: white;
 }

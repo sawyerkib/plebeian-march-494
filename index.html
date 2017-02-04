@@ -1,16 +1,20 @@
-<html>
+<!doctype html>
+<html lang='en-US'>
   <head>
+    <title></title>
     <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
     <!-- stuff for slider -->
     <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
     <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'/>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css'>
 
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700'>
 
-    <link rel='stylesheet' href='assets/stylesheets/all.css'/>
+    <link rel='stylesheet' href='assets/stylesheets/all.css'>
   </head>
 
   <body>
@@ -46,9 +50,9 @@
       <section class='history dark-section'>
         <div class='container'>
           <div class='slick-slider'>
-            <img src='assets/images/marching-soldiers.jpg' class='img-treatment'>
-            <img src='assets/images/government.jpg' class='img-treatment'>
-            <img src='assets/images/senate.jpg' class='img-treatment'>
+            <img src='assets/images/marching-soldiers.jpg'>
+            <img src='assets/images/government.jpg'>
+            <img src='assets/images/senate.jpg'>
           </div>
           <h2>History</h2>
           <p>Once Rome was ruled by Etruscan kings. They ruled Rome between 616 B.C.E. to 509 B.C.E. The patricians got fed up with the Etruscan rule. The patricians rebelled in 509 B.C.E. Us plebeians did not have a good life under the rule of the kings. We were treated badly, we had no good land and the king chose and did everything for us. When we heard the patricians rebelled and started a republic we thought things would change for the plebeians. Nothing changed for us. The patricians were elected by other patricians then treated us bad. The partitions can't treat us bad anymore! Join us on the march to make history.</p>
@@ -67,7 +71,10 @@
     <script>
       $(document).ready(function(){
         $('.slick-slider').slick({
-
+          adaptiveHeight: false,
+          autoplay: true,
+          arrows: true,
+          dots: true,
         });
       });
     </script>
