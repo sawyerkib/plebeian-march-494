@@ -1,3 +1,13 @@
 body {
-  background-color: blue;
+  background-color: #1c1d1f;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+main {
+  max-width: 700px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
 }
