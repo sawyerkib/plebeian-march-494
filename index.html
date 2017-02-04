@@ -5,11 +5,16 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
-    <!-- stuff for slider -->
     <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+
+    <!-- stuff for slider -->
     <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css'>
+
+    <!-- stuff for modal -->
+    <script src='assets/js/modaal.min.js'></script>
+    <link rel='stylesheet' href='assets/stylesheets/modaal.min.css'>
 
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700'>
@@ -78,11 +83,17 @@
     <!-- slider info -->
     <script>
       $(document).ready(function(){
+        // slider
         $('.slick-slider').slick({
           adaptiveHeight: false,
           autoplay: true,
           arrows: true,
           dots: true,
+        });
+
+        // photo gallery
+        $('.photo-gallery').modaal({
+          type: 'image',
         });
       });
     </script>
