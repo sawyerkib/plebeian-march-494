@@ -46,7 +46,7 @@ figure.hero figcaption img {
   width: 200px;
 }
 
-/*slider stuff*/
+/* slider stuff */
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before {
   color: white;
