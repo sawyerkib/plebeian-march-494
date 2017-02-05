@@ -13,3 +13,14 @@ I had to add all the images so my dad said to try it out for myself so I did. I 
 ----
 
 We couldn't figure out what day the actual march was or what calendar they used so we made up a present day date. 
+
+----
+
+## Stuff We Started to Learn
+
+- HTML
+- CSS 
+- Git (basics)
+- Atom (text editor)
+- Illustrator
+- Photoshop
