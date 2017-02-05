@@ -40,13 +40,14 @@ figure {
 }
 
 .img-treatment {
-  border-radius: 5px;
+  -webkit-clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 86%);
+  clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 86%);
 }
 
 figure.hero figcaption {
   position: absolute;
-  top: -25px;
-  right: 16px;
+  top: 0px;
+  right: 20px;
 }
 
 figure.hero figcaption img {
