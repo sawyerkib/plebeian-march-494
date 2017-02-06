@@ -1,5 +1,7 @@
 # Read Me
 
+Live site: https://sawyerkib.github.io/
+
 To start the project we made the index.html and the all.css. We wrote the basic code skeleton down before we started with the code. We had a `<head>` and a `<body>`. The first page we worked on was the home page. We went over to the css and messed with the background a little bit. After I got a hang of that we started on content. I pasted all content on the home page in the body. I looked at it on the web and then saw it needed titles. We added titles for each page. Then my dad asked me what color I wanted for my website and I said more of a dark background but don't really have a solid color in my mind. I started seeing which color I liked most and saw I liked black background with white text. Next, we worked on the text font, I decided on open sans.
 
 After we had all the basics down we started thinking about organization. I didn't really know how to organize the website so my dad showed me what it looked like to separate sections with color. I decided I liked that so we went with white then black and white and so on. My dad showed me how the code overwrites itself, so most of the website can be one color, but certain sections are another. I had to create a class named `dark-section`. I put a class on every section that was going to be black with that class. When I looked back at my website I realized the colors seemed to squish the writing. My dad explained to me that it needed padding so he added that and it looked a lot better.
